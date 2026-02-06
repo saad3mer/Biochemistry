@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SAAD AMER | جدول المحاضرات</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cairo", system-ui, sans-serif;
+    background: linear-gradient(135deg, #eef6ff, #ffffff);
+    margin: 0;
+    padding: 15px;
+    color: #1f2d3d;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+/* ===== Header ===== */
+.header {
+    text-align: center;
+    padding: 25px 15px;
+    background: linear-gradient(90deg, #2b7cff, #3fa9f5);
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+}
+
+.header p {
+    margin-top: 8px;
+    font-size: 18px;
+    opacity: 0.95;
+}
+
+/* ===== Table ===== */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+}
+
+thead {
+    background: #f2f7ff;
+}
+
+th, td {
+    padding: 14px 10px;
+    text-align: center;
+    border-bottom: 1px solid #e6ecf5;
+    white-space: nowrap;
+}
+
+th {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+td {
+    font-size: 14px;
+}
+
+tr:hover {
+    background: #f9fbff;
+}
+
+/* ===== Badges ===== */
+.badge {
+    padding: 6px 14px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.lecture {
+    background: #4a90e2;
+}
+
+.lab {
+    background: #2ecc71;
+}
+
+/* ===== Mobile Enhancements ===== */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 26px;
+    }
+
+    .header p {
+        font-size: 15px;
+    }
+
+    th, td {
+        padding: 12px 8px;
+        font-size: 13px;
+    }
+
+    table {
+        min-width: 600px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>SAAD AMER</h1>
+        <p>جدول المحاضرات والسكاشن – علوم (كيمياء حيوي)</p>
+    </div>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>اليوم</th>
+                    <th>الوقت</th>
+                    <th>المادة</th>
+                    <th>الكود</th>
+                    <th>النوع</th>
+                    <th>المكان</th>
+                    <th>المجموعة</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>الأحد</td>
+                    <td>12:00 – 14:00</td>
+                    <td>التحليل الحجمي والوزني</td>
+                    <td>ك 213</td>
+                    <td><span class="badge lab">عملي</span></td>
+                    <td>معمل 203</td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>الاثنين</td>
+                    <td>12:00 – 14:00</td>
+                    <td>إثراء الماء والعناصر</td>
+                    <td>ك 275</td>
+                    <td><span class="badge lecture">محاضرة</span></td>
+                    <td>مدرج 148B</td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>الثلاثاء</td>
+                    <td>09:00 – 10:00</td>
+                    <td>الديناميكا الحرارية</td>
+                    <td>ك 241</td>
+                    <td><span class="badge lecture">محاضرة</span></td>
+                    <td>مدرج 152B</td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>الثلاثاء</td>
+                    <td>10:00 – 12:00</td>
+                    <td>التحليل الحجمي والوزني</td>
+                    <td>ك 213</td>
+                    <td><span class="badge lecture">محاضرة</span></td>
+                    <td>مدرج 152B</td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>الثلاثاء</td>
+                    <td>13:00 – 15:00</td>
+                    <td>الإنزيمات</td>
+                    <td>ك 276</td>
+                    <td><span class="badge lab">عملي</span></td>
+                    <td>معمل 206</td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>الأربعاء</td>
+                    <td>08:00 – 10:00</td>
+                    <td>رياضيات بحتة</td>
+                    <td>ر 213</td>
+                    <td><span class="badge lecture">محاضرة</span></td>
+                    <td>مدرج 152B</td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>الأربعاء</td>
+                    <td>13:00 – 15:00</td>
+                    <td>الإنزيمات</td>
+                    <td>ك 276</td>
+                    <td><span class="badge lecture">محاضرة</span></td>
+                    <td>مدرج 152B</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+</body>
+</html>
