@@ -2,7 +2,7 @@
   "name": "Dr / Saad Amer",
   "short_name": "Schedule",
   "description": "📚 جدول الكيمياء الحيوي 🧪⚗️",
-  "start_url": "/index.html",
+  "start_url": "schedule/",
   "display": "standalone",
   "background_color": "#eef6ff",
   "theme_color": "#2b7cff",
