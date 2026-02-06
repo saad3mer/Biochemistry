@@ -1,0 +1,22 @@
+{
+  "name": "Dr / Saad Amer",
+  "short_name": "KemiaBio",
+  "description": "📚 جدول الكيمياء الحيوي 🧪⚗️",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#eef6ff",
+  "theme_color": "#2b7cff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
